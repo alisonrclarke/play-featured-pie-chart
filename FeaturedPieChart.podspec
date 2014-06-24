@@ -6,7 +6,7 @@
 #
 Pod::Spec.new do |s|
   s.name             = "FeaturedPieChart"
-  s.version          = 0.1.0
+  s.version          = '0.1.0'
   s.summary          = "A pie chart demo."
   s.description      = <<-DESC
                        A pie chart for the featured gallery
