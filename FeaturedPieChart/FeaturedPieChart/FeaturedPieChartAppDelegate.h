@@ -1,5 +1,5 @@
 //
-//  SPViewController.h
+//  SPAppDelegate.h
 //  FeaturedPieChart
 //
 //  Created by Alison Clarke on 23/06/2014.
@@ -8,6 +8,8 @@
 
 #import <UIKit/UIKit.h>
 
-@interface SPViewController : UIViewController
+@interface FeaturedPieChartAppDelegate : UIResponder <UIApplicationDelegate>
+
+@property (strong, nonatomic) UIWindow *window;
 
 @end

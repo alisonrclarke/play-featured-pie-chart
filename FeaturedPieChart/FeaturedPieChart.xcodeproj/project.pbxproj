@@ -12,9 +12,9 @@
 		68793BA819584BE4009C17BD /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 68793BA719584BE4009C17BD /* UIKit.framework */; };
 		68793BAE19584BE4009C17BD /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 68793BAC19584BE4009C17BD /* InfoPlist.strings */; };
 		68793BB019584BE4009C17BD /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 68793BAF19584BE4009C17BD /* main.m */; };
-		68793BB419584BE4009C17BD /* SPAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 68793BB319584BE4009C17BD /* SPAppDelegate.m */; };
+		68793BB419584BE4009C17BD /* FeaturedPieChartAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 68793BB319584BE4009C17BD /* FeaturedPieChartAppDelegate.m */; };
 		68793BB719584BE4009C17BD /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 68793BB519584BE4009C17BD /* Main.storyboard */; };
-		68793BBA19584BE4009C17BD /* SPViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 68793BB919584BE4009C17BD /* SPViewController.m */; };
+		68793BBA19584BE4009C17BD /* FeaturedPieChartMainViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 68793BB919584BE4009C17BD /* FeaturedPieChartMainViewController.m */; };
 		68793BBC19584BE4009C17BD /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 68793BBB19584BE4009C17BD /* Images.xcassets */; };
 		68793BDE19584C0E009C17BD /* FeaturedPieChartUtilities.m in Sources */ = {isa = PBXBuildFile; fileRef = 68793BD919584C0E009C17BD /* FeaturedPieChartUtilities.m */; };
 		68793BDF19584C0E009C17BD /* FeaturedPieChartDataSource.m in Sources */ = {isa = PBXBuildFile; fileRef = 68793BDB19584C0E009C17BD /* FeaturedPieChartDataSource.m */; };
@@ -34,11 +34,11 @@
 		68793BAD19584BE4009C17BD /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		68793BAF19584BE4009C17BD /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		68793BB119584BE4009C17BD /* FeaturedPieChart-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "FeaturedPieChart-Prefix.pch"; sourceTree = "<group>"; };
-		68793BB219584BE4009C17BD /* SPAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SPAppDelegate.h; sourceTree = "<group>"; };
-		68793BB319584BE4009C17BD /* SPAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SPAppDelegate.m; sourceTree = "<group>"; };
+		68793BB219584BE4009C17BD /* FeaturedPieChartAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = FeaturedPieChartAppDelegate.h; sourceTree = "<group>"; };
+		68793BB319584BE4009C17BD /* FeaturedPieChartAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = FeaturedPieChartAppDelegate.m; sourceTree = "<group>"; };
 		68793BB619584BE4009C17BD /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
-		68793BB819584BE4009C17BD /* SPViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SPViewController.h; sourceTree = "<group>"; };
-		68793BB919584BE4009C17BD /* SPViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SPViewController.m; sourceTree = "<group>"; };
+		68793BB819584BE4009C17BD /* FeaturedPieChartMainViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = FeaturedPieChartMainViewController.h; sourceTree = "<group>"; };
+		68793BB919584BE4009C17BD /* FeaturedPieChartMainViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = FeaturedPieChartMainViewController.m; sourceTree = "<group>"; };
 		68793BBB19584BE4009C17BD /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
 		68793BC219584BE4009C17BD /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
 		68793BD819584C0E009C17BD /* FeaturedPieChartUtilities.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FeaturedPieChartUtilities.h; sourceTree = "<group>"; };
@@ -113,11 +113,11 @@
 				68793BDB19584C0E009C17BD /* FeaturedPieChartDataSource.m */,
 				68793BDC19584C0E009C17BD /* FeaturedPieChartViewController.h */,
 				68793BDD19584C0E009C17BD /* FeaturedPieChartViewController.m */,
-				68793BB219584BE4009C17BD /* SPAppDelegate.h */,
-				68793BB319584BE4009C17BD /* SPAppDelegate.m */,
+				68793BB219584BE4009C17BD /* FeaturedPieChartAppDelegate.h */,
+				68793BB319584BE4009C17BD /* FeaturedPieChartAppDelegate.m */,
 				68793BB519584BE4009C17BD /* Main.storyboard */,
-				68793BB819584BE4009C17BD /* SPViewController.h */,
-				68793BB919584BE4009C17BD /* SPViewController.m */,
+				68793BB819584BE4009C17BD /* FeaturedPieChartMainViewController.h */,
+				68793BB919584BE4009C17BD /* FeaturedPieChartMainViewController.m */,
 				68793BBB19584BE4009C17BD /* Images.xcassets */,
 				68793BAA19584BE4009C17BD /* Supporting Files */,
 			);
@@ -206,8 +206,8 @@
 				68793BDF19584C0E009C17BD /* FeaturedPieChartDataSource.m in Sources */,
 				68793BDE19584C0E009C17BD /* FeaturedPieChartUtilities.m in Sources */,
 				68793BE319584C17009C17BD /* OrderedDictionary.m in Sources */,
-				68793BBA19584BE4009C17BD /* SPViewController.m in Sources */,
-				68793BB419584BE4009C17BD /* SPAppDelegate.m in Sources */,
+				68793BBA19584BE4009C17BD /* FeaturedPieChartMainViewController.m in Sources */,
+				68793BB419584BE4009C17BD /* FeaturedPieChartAppDelegate.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -366,6 +366,7 @@
 				68793BD419584BE4009C17BD /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

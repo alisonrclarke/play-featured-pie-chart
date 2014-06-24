@@ -6,9 +6,9 @@
 //  Copyright (c) 2014 Alison Clarke. All rights reserved.
 //
 
-#import "SPAppDelegate.h"
+#import "FeaturedPieChartAppDelegate.h"
 
-@implementation SPAppDelegate
+@implementation FeaturedPieChartAppDelegate
 
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions
 {

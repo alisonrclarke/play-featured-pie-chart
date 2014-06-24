@@ -6,16 +6,16 @@
 //  Copyright (c) 2014 Alison Clarke. All rights reserved.
 //
 
-#import "SPViewController.h"
+#import "FeaturedPieChartMainViewController.h"
 #import "FeaturedPieChartViewController.h"
 
-@interface SPViewController ()
+@interface FeaturedPieChartMainViewController ()
 
 @property (strong, nonatomic) UIViewController *chartViewController;
 
 @end
 
-@implementation SPViewController
+@implementation FeaturedPieChartMainViewController
 
 - (void)viewDidLoad
 {
